@@ -1,0 +1,200 @@
+html{
+    background-image: linear-gradient(rgba(104, 84, 48, 0.397), rgb(194, 194, 182));
+}
+
+#main
+{
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    justify-content: center;
+}
+
+#search
+{
+    display:inline-block;
+    margin: 2px;
+}
+
+#search > input
+{
+    text-align: left;
+    border-radius: 2px;
+    width: 340px;
+}
+
+#search > button{
+    margin-left:2px;
+}
+
+#adduser
+{
+    width: 50px;
+    border-radius: 3px;
+}
+
+#AllusersComponnets
+{
+    text-align: left;
+    padding: 10px;
+    width:340px;
+    height:650px;
+    border:2px solid rgb(156, 114, 114);
+    overflow: auto;
+    overflow-x: hidden;
+    border-radius: 30px 0 0 30px;
+}
+
+#Alluserscomponet::-webkit-scrollbar
+{
+    width:10px;
+}
+
+#Alluserscomponet::-webkit-scrollbar-thumb
+{
+    height:100px;
+    -webkit-box-shadow:inset 0 0 6px rgba(56, 17, 17, 0.192);
+}
+
+#Alluserscomponet::-webkit-scrollbar-track
+{
+    width:10px;
+    -webkit-box-shadow:inset 0 0 5px rgb(197, 243, 220);
+}  
+#Alluserscomponet
+{
+    display:grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    padding: 5px;
+    width:300px;
+    margin: 10px auto;
+    border:1.5px solid;
+    border-radius: 20px;
+    background-color:rgb(184, 151, 90);
+}
+
+
+#Elementinputs
+{
+    display:grid;
+    grid-template: 2 2;
+    height:70px;
+}
+
+#uElementinputs
+{
+    border:2px solid;
+    border-radius: 4px;
+    margin:4px;
+    height:20px;
+}
+
+#user-buttons_allClicks
+{
+    text-align: center;
+    padding: 5px;
+}
+
+#user-buttons_allClicks > button
+{
+    margin-left:10px;
+}
+
+#otherdata
+{
+    text-align: left;
+}
+#otherdata > div 
+{
+    margin:3px;
+
+}
+#otherdata > input
+{
+    border-radius:12px;
+}
+#id
+{
+    font-size: 23px;
+}
+.lee
+{
+    color: black;
+}
+
+
+#addUserBlock
+{
+    padding: 25px;
+    width:200px;
+    height:150px;
+    position: absolute;
+    top: 50px;
+    right:200px;
+    border-radius: 20px;
+    border: blue 1px solid;
+    margin-top:10px;
+    background-color: rgb(243, 217, 197);
+}
+
+#adduser-title
+{
+    font: 22px;
+    font-weight: bold;
+
+}
+#title
+{
+    font-weight: bolder;
+    margin-left:13px;
+    font-size: 17px;
+}
+#container_of_todos
+{
+    border-radius: 25px 0 0 25px;
+}
+#container_of_todos::-webkit-scrollbar
+{
+    width:10px;
+}
+
+#todos-container::-webkit-scrollbar-thumb
+{
+    height:200px;
+    -webkit-box-shadow:inset 0 0 6px rgb(143, 106, 106);
+}
+
+#container_of_todos::-webkit-scrollbar-track
+{
+    width:10px;
+    -webkit-box-shadow:inset 0 0 5px white;
+}  
+
+.title
+{
+    font-weight: bold;
+}
+
+#todo-Div
+{
+    border-radius: 5px;
+    background-color: rgba(87, 32, 32, 0.568);
+}
+.buttons
+{
+    border-radius: 20px;
+}
+
+.show
+{
+    display:block;
+}
+.hide
+{
+    display: none;
+}
+
+
+
+
